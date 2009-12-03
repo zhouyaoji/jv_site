@@ -1,0 +1,83 @@
+<html>
+  <head>
+  <style type='text/css'>
+  fieldset{
+  margin: 1em 0;
+  padding: 1em;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  width: 300px;
+  color: black;
+  }
+  legend{
+   font-weight: bold;
+   font-family: "Century Gothic", Geneva, Verdana, Ariel;
+   font-size: 115%;
+  }
+  label{
+   color: #000033;
+   float: left;
+   cursor: point;
+   width: 7em;
+  }
+  input{
+    width; 20em;
+  }
+  form{
+   font-family: Ariel, Verdana;
+   font-size: 90%;
+  }
+  form div{
+   clear: left;
+  }
+  #form_name{
+   height: 30px;
+  }
+  #mailing_list{
+   color: #000033;
+  }
+  #mail_list_label{
+   clear: left;
+   width: 290px;
+  }
+  label em{
+   color: red;
+  }
+  .small-font{
+    font-size: 85%;
+  }
+  </style>
+  </head>
+  <body>
+    <form name='contact_info'>
+    <fieldset>
+      <div id='error'></div>
+      <legend>Your Contact Details</legend>
+      <div id='form_name'>
+        <label for='name'><em>*</em> Name:</label>
+        <input name='name' id='name' type='text' size='23'/>
+      </div>
+      <div id='form_email'>
+        <label for='email'><em>*</em> Email:</label> 
+        <input name='email' id='email' type='text' size='23'>
+      </div>
+      <div id='form_message'>
+        <br/>
+        <label for='message'><em>*</em> Message:</label>
+        <textarea id='message'rows='5' cols='33'></textarea> 
+     </div>
+    </fieldset>  
+   <fieldset>
+    <div id='mailing_list'>
+      <legend>Mailing List</legend>
+      <label class='small-font' id='mail_list_label' for='mail_list'>Want to know about future events and news?</label><br/>
+      <input type='radio' name='mailing_list' value='true' checked /><span class='small-font'>Yes</span>
+      <input type='radio' name='mailing_list' value='false'/><span class='small-font'>No</span>
+    </div>
+    </fieldset>
+    <input type='submit' value='Send' style='font-family: Ariel; font-size: 110%; width: 5%; height: 20px; color: navy;' />
+   </form>
+  </body>
+</html>
+
+ 

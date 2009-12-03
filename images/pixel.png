@@ -1,0 +1,16 @@
+<br />
+<b>Warning</b>:  filesize() [<a href='function.filesize'>function.filesize</a>]: stat failed for example/ykNxjI.png in <b>/home/www/gradcolor.com/htdocs/load.php</b> on line <b>10</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /home/www/gradcolor.com/htdocs/load.php:10) in <b>/home/www/gradcolor.com/htdocs/load.php</b> on line <b>10</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /home/www/gradcolor.com/htdocs/load.php:10) in <b>/home/www/gradcolor.com/htdocs/load.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /home/www/gradcolor.com/htdocs/load.php:10) in <b>/home/www/gradcolor.com/htdocs/load.php</b> on line <b>12</b><br />
+<br />
+<b>Warning</b>:  fopen(example/ykNxjI.png) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in <b>/home/www/gradcolor.com/htdocs/load.php</b> on line <b>13</b><br />
+<br />
+<b>Warning</b>:  filesize() [<a href='function.filesize'>function.filesize</a>]: stat failed for example/ykNxjI.png in <b>/home/www/gradcolor.com/htdocs/load.php</b> on line <b>14</b><br />
+<br />
+<b>Warning</b>:  fread(): supplied argument is not a valid stream resource in <b>/home/www/gradcolor.com/htdocs/load.php</b> on line <b>14</b><br />
+<br />
+<b>Warning</b>:  fclose(): supplied argument is not a valid stream resource in <b>/home/www/gradcolor.com/htdocs/load.php</b> on line <b>15</b><br />

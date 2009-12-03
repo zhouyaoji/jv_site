@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Basic Animation</title>
+
+<style type="text/css">
+/*margin and padding on body element
+  can introduce errors in determining
+  element position and are not recommended;
+  we turn them off as a foundation for YUI
+  CSS treatments. */
+body {
+	margin:0;
+	padding:0;
+}
+</style>
+
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/fonts/fonts-min.css" />
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/animation/animation-min.js"></script>
+
+
+<!--begin custom header content for this example-->
+<style type="text/css">
+#demo {
+    background:#ccc;
+    margin-bottom:1em;
+    overflow:hidden;
+    width:200px;
+    visibility: hidden;
+}
+</style>
+
+
+<!--end custom header content for this example-->
+
+</head>
+
+<body class="yui-skin-sam">
+
+
+<h1>Basic Animation</h1>
+
+<div class="exampleIntro">
+	<p>This demonstrates how to apply a simple animation effect to an HTMLElement. Click the button to begin the demo.</p>
+
+			
+</div>
+
+<!--BEGIN SOURCE CODE FOR EXAMPLE =============================== -->
+
+<div id="demo">Demo</div>
+<a id="demo-run" href='#'>run</a>
+
+<script type="text/javascript">
+(function() {
+    var attributes = {
+        height: { from: 0, to: 100 }
+    };
+    var anim = new YAHOO.util.Anim('demo', attributes);
+
+    YAHOO.util.Event.on('demo-run', 'click', function() {
+        anim.animate();
+    });
+
+    YAHOO.log("The example has finished loading; as you interact with it, you'll see log messages appearing here.", "info", "example");
+    console.log("The example has been run.");
+})();
+</script>
+
+<!--END SOURCE CODE FOR EXAMPLE =============================== -->
+
+
+<!--MyBlogLog instrumentation-->
+<script type="text/javascript" src="http://track2.mybloglog.com/js/jsserv.php?mblID=2007020704011645"></script>
+
+</body>
+</html>
+
+<table width="750" border="0" cellspacing="0" cellpadding="0"><tr class="ygcp"><td align="center"><small>Copyright &copy; 2009 Yahoo! Inc. All Rights Reserved. &nbsp;<a href="http://us.ard.yahoo.com/SIG=15qgbttdv/M=236957.9502486.10230551.9197967/D=dev_net/S=792403811:FOOT/Y=YAHOO/EXP=1257489350/L=7848zUWTW6CWORflSucetn1HR41ndErzp6YADBR7/B=TUEKFUWTWUg-/J=1257482150866755/K=dXVx1FTh3.HKBZzdDrYf1A/A=3901226/R=0/SIG=10urfb24s/*http://sbc.yahoo.com/privacy" target=_blank>Privacy Policy</a> | <a href="http://us.ard.yahoo.com/SIG=15qgbttdv/M=236957.9502486.10230551.9197967/D=dev_net/S=792403811:FOOT/Y=YAHOO/EXP=1257489350/L=7848zUWTW6CWORflSucetn1HR41ndErzp6YADBR7/B=TUEKFUWTWUg-/J=1257482150866755/K=dXVx1FTh3.HKBZzdDrYf1A/A=3901226/R=1/SIG=10sh2p85k/*http://sbc.yahoo.com/terms" target=_blank>Terms of Service</a> | <a href="http://us.ard.yahoo.com/SIG=15qgbttdv/M=236957.9502486.10230551.9197967/D=dev_net/S=792403811:FOOT/Y=YAHOO/EXP=1257489350/L=7848zUWTW6CWORflSucetn1HR41ndErzp6YADBR7/B=TUEKFUWTWUg-/J=1257482150866755/K=dXVx1FTh3.HKBZzdDrYf1A/A=3901226/R=2/SIG=126t9gull/*http://sbc.yahoo.com/feedback1?.done=http://games.yahoo.com&.from=f1" target=_blank>Send Feedback</a> | <a href="http://us.ard.yahoo.com/SIG=15qgbttdv/M=236957.9502486.10230551.9197967/D=dev_net/S=792403811:FOOT/Y=YAHOO/EXP=1257489350/L=7848zUWTW6CWORflSucetn1HR41ndErzp6YADBR7/B=TUEKFUWTWUg-/J=1257482150866755/K=dXVx1FTh3.HKBZzdDrYf1A/A=3901226/R=3/SIG=148iud31a/*https://login.yahoo.com/config/validate?.src=sbc&.intl=us&.pc=2807&.done=http%3A%2F%2Fwww.att.com%2Fesupport%2Fmain.jsp%3Fapp_id%3DPBY" target=_blank>Help</a></small></td></tr></table><script language=javascript>
+if(window.yzq_d==null)window.yzq_d=new Object();
+window.yzq_d['TUEKFUWTWUg-']='&U=13efg64vi%2fN%3dTUEKFUWTWUg-%2fC%3d236957.9502486.10230551.9197967%2fD%3dFOOT%2fB%3d3901226%2fV%3d1';
+
+</script><noscript><img width=1 height=1 alt="" src="http://us.bc.yahoo.com/b?P=7848zUWTW6CWORflSucetn1HR41ndErzp6YADBR7&T=14205gdjc%2fX%3d1257482150%2fE%3d792403811%2fR%3ddev_net%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3dYAHOO%2fF%3d1744515612%2fQ%3d-1%2fS%3d1%2fJ%3dAB5B9345&U=13efg64vi%2fN%3dTUEKFUWTWUg-%2fC%3d236957.9502486.10230551.9197967%2fD%3dFOOT%2fB%3d3901226%2fV%3d1"></noscript>
+<!-- VER-717 -->
+<script language=javascript>
+if(window.yzq_p==null)document.write("<scr"+"ipt language=javascript src=http://l.yimg.com/d/lib/bc/bc_2.0.4.js></scr"+"ipt>");
+</script><script language=javascript>
+if(window.yzq_p)yzq_p('P=7848zUWTW6CWORflSucetn1HR41ndErzp6YADBR7&T=13t4qoa0p%2fX%3d1257482150%2fE%3d792403811%2fR%3ddev_net%2fK%3d5%2fV%3d1.1%2fW%3dJ%2fY%3dYAHOO%2fF%3d1620441511%2fS%3d1%2fJ%3dAB5B9345');
+if(window.yzq_s)yzq_s();
+</script><noscript><img width=1 height=1 alt="" src="http://us.bc.yahoo.com/b?P=7848zUWTW6CWORflSucetn1HR41ndErzp6YADBR7&T=142r6gc7v%2fX%3d1257482150%2fE%3d792403811%2fR%3ddev_net%2fK%3d5%2fV%3d3.1%2fW%3dJ%2fY%3dYAHOO%2fF%3d1507030127%2fQ%3d-1%2fS%3d1%2fJ%3dAB5B9345"></noscript>
+<!-- p4.ydn.sp1.yahoo.com compressed/chunked Thu Nov  5 20:35:50 PST 2009 -->
+
